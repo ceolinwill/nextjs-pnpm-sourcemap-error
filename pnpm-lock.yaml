@@ -12,10 +12,10 @@ importers:
     dependencies:
       '@ai-sdk/openai':
         specifier: 4.0.2
-        version: 4.0.2(zod@4.4.3)
+        version: 4.0.2(zod@4.3.6)
       ai:
         specifier: 7.0.4
-        version: 7.0.4(zod@4.4.3)
+        version: 7.0.4(zod@4.3.6)
       next:
         specifier: 16.2.9
         version: 16.2.9(react-dom@19.2.7(react@19.2.7))(react@19.2.7)
@@ -2420,31 +2420,28 @@ packages:
   zod@4.3.6:
     resolution: {integrity: sha512-rftlrkhHZOcjDwkGlnUtZZkvaPHCsDATp4pGpuOOMDaTdDDXF91wuVDJoWoPsKX/3YPQ5fHuF3STjcYyKr+Qhg==}
 
-  zod@4.4.3:
-    resolution: {integrity: sha512-ytENFjIJFl2UwYglde2jchW2Hwm4GJFLDiSXWdTrJQBIN9Fcyp7n4DhxJEiWNAJMV1/BqWfW/kkg71UDcHJyTQ==}
-
 snapshots:
 
-  '@ai-sdk/gateway@4.0.4(zod@4.4.3)':
+  '@ai-sdk/gateway@4.0.4(zod@4.3.6)':
     dependencies:
       '@ai-sdk/provider': 4.0.0
-      '@ai-sdk/provider-utils': 5.0.1(zod@4.4.3)
+      '@ai-sdk/provider-utils': 5.0.1(zod@4.3.6)
       '@vercel/oidc': 3.2.0
-      zod: 4.4.3
+      zod: 4.3.6
 
-  '@ai-sdk/openai@4.0.2(zod@4.4.3)':
+  '@ai-sdk/openai@4.0.2(zod@4.3.6)':
     dependencies:
       '@ai-sdk/provider': 4.0.0
-      '@ai-sdk/provider-utils': 5.0.1(zod@4.4.3)
-      zod: 4.4.3
+      '@ai-sdk/provider-utils': 5.0.1(zod@4.3.6)
+      zod: 4.3.6
 
-  '@ai-sdk/provider-utils@5.0.1(zod@4.4.3)':
+  '@ai-sdk/provider-utils@5.0.1(zod@4.3.6)':
     dependencies:
       '@ai-sdk/provider': 4.0.0
       '@standard-schema/spec': 1.1.0
       '@workflow/serde': 4.1.0
       eventsource-parser: 3.1.0
-      zod: 4.4.3
+      zod: 4.3.6
 
   '@ai-sdk/provider@4.0.0':
     dependencies:
@@ -3106,7 +3103,7 @@ snapshots:
 
   '@vercel/queue@0.3.1':
     dependencies:
-      '@vercel/oidc': 3.2.0
+      '@vercel/oidc': 3.7.1
       minimatch: 10.2.5
       mixpart: 0.0.6
       picocolors: 1.1.1
@@ -3456,12 +3453,12 @@ snapshots:
 
   acorn@8.17.0: {}
 
-  ai@7.0.4(zod@4.4.3):
+  ai@7.0.4(zod@4.3.6):
     dependencies:
-      '@ai-sdk/gateway': 4.0.4(zod@4.4.3)
+      '@ai-sdk/gateway': 4.0.4(zod@4.3.6)
       '@ai-sdk/provider': 4.0.0
-      '@ai-sdk/provider-utils': 5.0.1(zod@4.4.3)
-      zod: 4.4.3
+      '@ai-sdk/provider-utils': 5.0.1(zod@4.3.6)
+      zod: 4.3.6
 
   ansi-align@3.0.1:
     dependencies:
@@ -4857,5 +4854,3 @@ snapshots:
   zod@4.1.11: {}
 
   zod@4.3.6: {}
-
-  zod@4.4.3: {}
