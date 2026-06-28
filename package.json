@@ -1,0 +1,9 @@
+{
+  "name": "next-pnpm-source-map-repro",
+  "private": true,
+  "packageManager": "pnpm@11.7.0",
+  "scripts": {
+    "build": "pnpm --filter web build"
+  }
+}
+
